@@ -1,0 +1,7 @@
+<h1>middle</h1>
+<%= @user.inspect %><br>
+<%= @users.inspect %>
+
+<% @user_six_posts.each do |post| %>
+  <h2><%= post.id %> | <%= post.title %> | <%= post.user_id %></h2>
+<% end %>
